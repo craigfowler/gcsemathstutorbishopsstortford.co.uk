@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>Availability for GCSE Maths tutoring</title>
+<meta name="description" content="Availability and time-slots for tutoring">
+<!--#include virtual="inc/head.html" -->
+</head>
+<body class="availability">
+  <header>
+    <!--#include virtual="inc/navigation.html" -->
+    <!--#include virtual="inc/header.html" -->
+  </header>
+  <section class="content">
+    <h1>Availability</h1>
+    <div class="column_one">
+      <p>
+        1 hour slots are available Monday to Fridays from 4.00pm to 8.00pm, last session starts at 7.00pm
+      </p>
+    </div>
+    <div class="column_two">
+      <p>For weekend tuition, phone for availability and cost.</p>
+    </div>
+  </section>
+  <footer>
+    <!--#include virtual="inc/footer.html" -->
+  </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<title>Costs for GCSE Maths tutoring</title>
+<meta name="description" content="Example prices for tutoring, based on location">
+<!--#include virtual="inc/head.html" -->
+</head>
+<body class="cost">
+  <header>
+    <!--#include virtual="inc/navigation.html" -->
+    <!--#include virtual="inc/header.html" -->
+  </header>
+  <section class="content">
+    <h1>Costs</h1>
+    <div class="column_one">
+      <p>
+        Cost is dependant upon distance from Bishop’s Stortford and the number of hours you require per session.
+      </p>
+      <p>
+        Call for a quote or email me with your postcode and details; I will get back to you with your price.
+      </p>
+    </div>
+    <div class="column_two">
+      <p>Example prices: Hourly rates</p>
+      <table class="hourly_rates">
+        <colgroup>
+          <col class="location" />
+          <col class="rate" />
+        </colgroup>
+        <tbody>
+          <tr class="odd">
+            <td>Bishop’s Stortford</td>
+            <td>£10</td>
+          </tr>
+          <tr>
+            <td>Sawbrigdeworth</td>
+            <td>£15</td>
+          </tr>
+          <tr class="odd">
+            <td>Little Hadham</td>
+            <td>£15</td>
+          </tr>
+          <tr>
+            <td>Takeley</td>
+            <td>£15</td>
+          </tr>
+          <tr class="odd">
+            <td>Elsenham</td>
+            <td>£15</td>
+          </tr>
+          <tr>
+            <td>Standon</td>
+            <td>£20</td>
+          </tr>
+          <tr class="odd">
+            <td>Great Dunmow</td>
+            <td>£20</td>
+          </tr>
+          <tr>
+            <td>Newport</td>
+            <td>£20</td>
+          </tr>
+          <tr class="odd">
+            <td>Harlow</td>
+            <td>£20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <footer>
+    <!--#include virtual="inc/footer.html" -->
+  </footer>
+</body>
+</html>

@@ -1,6 +1,7 @@
 body > header > nav {
   font-family: 'Droid Serif', serif;
   border-bottom: 1px solid #666;
+  font-size: 150%;
 }
 body > header > nav a {
   color: #666;
@@ -14,14 +15,23 @@ body > header > nav a:hover {
 body.home > header > nav li.home a {
   color: #000;
 }
+body.cost > header > nav li.cost a {
+  color: #000;
+}
+body.availability > header > nav li.availability a {
+  color: #000;
+}
 body > header .masthead {
   font-family: 'Droid Serif', serif;
   background: #00F;
   color: #FFF;
   line-height: 130%;
   margin-top: 0.4ex;
-  padding: 0.4ex;
+  padding: 0.8ex 0.4ex;
   text-align: center;
+  background: #3D3DD3;
+  background: linear-gradient(to bottom,  #3D3DD3 0%,#7C7CD3 100%);
+  background: -ms-linear-gradient(top,  #3D3DD3 0%,#7C7CD3 100%);
 }
 body > section h1 {
   display: block;
@@ -40,12 +50,18 @@ body > section ul {
 body > section li {
   margin-bottom: 2ex;
 }
-body > footer {
-  color: #00F;
-  line-height: 130%;
+body > footer,
+body > footer a {
+  color: #3D3DD3;
 }
 body > footer a:hover {
   color: #000;
+}
+table.hourly_rates .location {
+  width: 60%;
+}
+table.hourly_rates .odd td {
+  background: #EEE none;
 }
 
 @media (min-width: 900px) {
@@ -77,14 +93,16 @@ body > footer a:hover {
     font-size: 85%;
   }
   body > section .column_one {
-    width: 400px;
+    width: 360px;
+    padding-left: 40px;
     float: left;
     font-family: 'Droid Sans', sans-serif;
     font-size: 160%;
     line-height: 130%;
   }
   body > section .column_two {
-    width: 400px;
+    width: 360px;
+    padding-right: 40px;
     float: left;
     margin-left: 60px;
     font-family: 'Droid Sans', sans-serif;
@@ -92,10 +110,20 @@ body > footer a:hover {
     line-height: 130%;
   }
   body > footer {
+    width: 820px;
     text-align: right;
     margin-top: 4ex;
     clear: both;
     font-size: 136%;
+    line-height: 130%;
+    padding-right: 40px;
+  }
+  table.hourly_rates {
+    width: 100%;
+  }
+  body.availability > section .column_one {
+    font-size: 136%;
+    line-height: 130%;
   }
 }
 
@@ -111,7 +139,7 @@ body > footer a:hover {
     margin-bottom: 1ex;
   }
   body > header > nav {
-    padding: 0 0 0.2ex;
+    padding: 0 0 0.8ex;
     overflow: auto;
   }
   body > header > nav li {
@@ -122,6 +150,9 @@ body > footer a:hover {
   body > header .masthead {
     font-size: 120%;
   }
+  body > section {
+    line-height: 130%;
+  }
   body > section .discreet {
     font-style: italic;
   }
@@ -130,5 +161,8 @@ body > footer a:hover {
     margin-top: 1ex;
     padding-top: 1ex;
     border-top: 1px solid #666;
+  }
+  table.hourly_rates {
+    width: 300px;
   }
 }
