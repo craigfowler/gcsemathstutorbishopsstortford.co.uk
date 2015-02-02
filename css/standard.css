@@ -1,0 +1,134 @@
+body > header > nav {
+  font-family: 'Droid Serif', serif;
+  border-bottom: 1px solid #666;
+}
+body > header > nav a {
+  color: #666;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+}
+body > header > nav a:hover {
+  color: #000;
+}
+body.home > header > nav li.home a {
+  color: #000;
+}
+body > header .masthead {
+  font-family: 'Droid Serif', serif;
+  background: #00F;
+  color: #FFF;
+  line-height: 130%;
+  margin-top: 0.4ex;
+  padding: 0.4ex;
+  text-align: center;
+}
+body > section h1 {
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px 0 0 -1px;
+}
+body > section p {
+  margin-bottom: 2ex;
+}
+body > section ul {
+  list-style: disc outside;
+  padding-left: 3ex;
+}
+body > section li {
+  margin-bottom: 2ex;
+}
+body > footer {
+  color: #00F;
+  line-height: 130%;
+}
+body > footer a:hover {
+  color: #000;
+}
+
+@media (min-width: 900px) {
+  body > header,
+  body > section,
+  body > footer {
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body > header {
+    margin-top: 3ex;
+    margin-bottom: 6ex;
+  }
+  body > header > nav {
+    padding: 0 0 0.4ex;
+  }
+  body > header > nav li {
+    width: 10ex;
+    display: inline-block;
+  }
+  body > header .masthead {
+    font-size: 200%;
+  }
+  body > section {
+    overflow: auto;
+  }
+  body > section .discreet {
+    font-size: 85%;
+  }
+  body > section .column_one {
+    width: 400px;
+    float: left;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 160%;
+    line-height: 130%;
+  }
+  body > section .column_two {
+    width: 400px;
+    float: left;
+    margin-left: 60px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 136%;
+    line-height: 130%;
+  }
+  body > footer {
+    text-align: right;
+    margin-top: 4ex;
+    clear: both;
+    font-size: 136%;
+  }
+}
+
+@media (max-width: 899px) {
+  body > header,
+  body > section,
+  body > footer {
+    margin-left: 1ex;
+    margin-right: 1ex;
+  }
+  body > header {
+    margin-top: 0.8ex;
+    margin-bottom: 1ex;
+  }
+  body > header > nav {
+    padding: 0 0 0.2ex;
+    overflow: auto;
+  }
+  body > header > nav li {
+    width: 33%;
+    float: left;
+    text-align: center;
+  }
+  body > header .masthead {
+    font-size: 120%;
+  }
+  body > section .discreet {
+    font-style: italic;
+  }
+  body > footer {
+    text-align: center;
+    margin-top: 1ex;
+    padding-top: 1ex;
+    border-top: 1px solid #666;
+  }
+}

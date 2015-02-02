@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<meta name="description" content="">
+<!--#include virtual="inc/head.html" -->
+</head>
+<body class="home">
+  <header>
+    <!--#include virtual="inc/navigation.html" -->
+    <!--#include virtual="inc/header.html" -->
+  </header>
+  <section class="content">
+    <h1>Maths tutoring</h1>
+    <div class="column_one">
+      <p>
+        Patient and friendly personal tutor, operating from Bishop’s Stortford.
+      </p>
+      <p>
+        Home visits for GCSE Maths (Foundation or Higher). All Materials supplied.
+      </p>
+      <p class="discreet">
+        Prices start at £10.00 per hour
+      </p>
+    </div>
+    <div class="column_two">
+      <p>Assistance available for GCSE Maths.</p>
+      <ul>
+        <li>Help with specific areas of weakness</li>
+        <li>Full weekly tutoring, tagged to school sessions</li>
+        <li>Homework help</li>
+        <li>Long term sickness catch-up</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <!--#include virtual="inc/footer.html" -->
+  </footer>
+</body>
+</html>
