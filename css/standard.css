@@ -197,3 +197,8 @@ table.hourly_rates .odd td {
     width: 300px;
   }
 }
+@media (max-width: 510px) {
+  body > header > nav li {
+    font-size: 60%;
+  }
+}

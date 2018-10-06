@@ -20,46 +20,6 @@
     </div>
     <h2>Sample prices for a 1h session</h2>
     <div class="prices_current price_list">
-      <p>
-        For customers starting between September '16 and July '17.
-      </p>
-      <table class="hourly_rates">
-        <colgroup>
-          <col class="location" />
-          <col class="rate" />
-        </colgroup>
-        <tbody>
-          <tr class="odd">
-            <td>Bishop’s Stortford</td>
-            <td>£12.50</td>
-          </tr>
-          <tr>
-            <td>Little Hadham</td>
-            <td>£15.00</td>
-          </tr>
-          <tr class="odd">
-            <td>Stansted</td>
-            <td>£14.00</td>
-          </tr>
-          <tr>
-            <td>Takeley</td>
-            <td>£16.50</td>
-          </tr>
-          <tr class="odd">
-            <td>Harlow</td>
-            <td>£19.50</td>
-          </tr>
-          <tr>
-            <td>Great Dunmow</td>
-            <td>£24.00</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="prices_next price_list">
-      <p>
-        For customers starting between September '17 and July '18.
-      </p>
       <table class="hourly_rates">
         <colgroup>
           <col class="location" />
